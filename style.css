@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Khula&display=swap');
+
+body {
+    background-color: grey;
+}
+
+
+
+h1 {
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid; 
+
+
+}
+
+h3 { 
+    color: black;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    margin-bottom: 300px;
+    
+}
+
+
+#demo {
+    color: black;
+    font-size: 100px;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+   
+    
+}
+
