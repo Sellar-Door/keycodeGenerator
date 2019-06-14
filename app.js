@@ -1,4 +1,4 @@
-// function with three variables - keycode, key and code - displays in "demo" with onkeypress in html body
+// function with three variables - keycode, key and code - displays in id "demo" with onkeypress 
 
 const myFunction = (event) =>{
     let key = event.keyCode;

@@ -1,37 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Khula&display=swap');
 
 body {
-    background-color: grey;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 
-
-h1 {
+.heading {
     color: white;
     font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid; 
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    margin-top: 30px;
 }
 
-h3 { 
+.subheading { 
     color: black;
     font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    margin-bottom: 300px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 }
-
 
 #demo {
     color: black;
+    text-align: center;
     font-size: 100px;
     font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-   
-    
+    margin-top: 200px;
+    height: 30px;
+    width: auto;
 }
 
+#text {
+font-size: 10px;
+background-color: white;
+}
+
+@media only screen and (max-width: 550px) {
+   
+#demo { 
+    font-size: 70px;
+} .heading {
+    font-size: 10px;
+   }
+}
+
+@media only screen and (max-width: 390px) {
+#demo {
+    font-size: 50px;
+} .heading {
+    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 284px) {
+#demo {
+    font-size: 30px;
+    }   
+.heading {
+    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+#demo {
+    font-size: 30px;
+    }
+        
+.heading {
+    font-size: 8px;
+    }
+}
